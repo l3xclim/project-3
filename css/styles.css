@@ -2,15 +2,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;  
 }
 
-h1, h2, h3 {
+h1, h2, h3, nav {
   font-family: "Inter", serif;
-  margin-bottom: 1em;
+  margin: 1em 0;
+}
+
+a {
+  color: #3376CD;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 h1 {
   font-size: 1.5em;
   line-height: 1.5em;
   font-weight: 600;
+  margin-top: 0;
 }
 
 h2 {
@@ -31,18 +41,30 @@ p {
   color: #555;
 }
 
+img {
+  max-width: 100%;
+}
+
 nav {
-  border-bottom: 1px solid #999;
+  border-bottom: 2px solid #AADAFA;
 }
 
 nav ul{
   margin: 1em;
-  gap: 1em;
+  gap: 2em;
   display: flex;
   justify-content: center;
 }
 
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
 main {
   padding: 1em 1.5em;
-
+  padding-top: 0;
 }
+
