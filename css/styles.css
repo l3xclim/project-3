@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+h1, h2, h3 {
+  font-family: "Inter", serif;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.5em;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.3em;
+  line-height: 1.3em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  font-weight: 500;
+}
+
+p {
+  margin-bottom: 1em;
+  line-height: 1.2em;
+  color: #555;
+}
+
+nav {
+  border-bottom: 1px solid #999;
+}
+
+nav ul{
+  margin: 1em;
+  gap: 1em;
+  display: flex;
+  justify-content: center;
+}
+
+main {
+  padding: 1em 1.5em;
+
+}
