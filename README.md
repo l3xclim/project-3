@@ -1,6 +1,6 @@
 ## Feedback
 
-1.	Add some <section>s to your html.
+<s>1.	Add some `<section>`s to your html.</s>
 
 2.	You need to use four CSS Floats and/or Positions to achieve some page layout.
 
