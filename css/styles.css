@@ -155,3 +155,7 @@ main ul li {
     gap: 2em;
   }  
 }
+
+#map {
+  height: 100%;
+}
