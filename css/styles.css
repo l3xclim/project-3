@@ -16,26 +16,18 @@ a {
   margin: 0 auto;
 }
 
-.fluid-container {
-  width: 80%;
-  margin: 0 auto;
-}
-
 h1 {
-  font-size: 1.5em;
   line-height: 1.5em;
   font-weight: 600;
   margin-top: 0;
 }
 
 h2 {
-  font-size: 1.3em;
   line-height: 1.3em;
   font-weight: 600;
 }
 
 h3 {
-  font-size: 1.2em;
   line-height: 1.2em;
   font-weight: 500;
 }
@@ -75,7 +67,6 @@ main {
 }
 
 main ul li {
-  list-style-type: square;
   margin-bottom: 0.5em;
   margin-left: 1em;
 }
@@ -99,4 +90,68 @@ main ul li {
   margin-left: 1em;
   margin-bottom: 0.75em;
   margin-right: 0.5em;
+}
+
+@media screen and (min-width: 480px) {
+  .sidebar {
+    display: none;
+  }
+  .fluid-container {
+    width: 100%;
+  }
+  body {
+    text-align: center;
+  }
+  main ul li{
+    list-style-type: none;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  h3 {
+    font-size: 1.3em;
+  }
+
+  nav ul {
+    font-size: 0.9em;
+    gap: 1.5em;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+  .sidebar {
+    display: block;
+  }
+  .fluid-container {
+    width: 80%;
+  }
+  body {
+    text-align: left;
+  }
+  main ul li{
+    list-style-type: square;
+  }  
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.3em;
+  }
+
+  h3 {
+    font-size: 1.2em;
+  }  
+  nav ul {
+    font-size: 1em;
+    gap: 2em;
+  }  
 }
