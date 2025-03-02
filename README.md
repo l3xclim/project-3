@@ -10,10 +10,10 @@
 
 <s>- Pick one page to make mobile friendly. This means adding 2 CSS media queries with at least 5 CSS style changes under each. Use the min-width media queries.</s>
 
-- Add a fourth html page for your Google Maps api. The map should have 3 features added beyond the base code.
+<s>- Add a fourth html page for your Google Maps api. The map should have 3 features added beyond the base code.</s>
 
-- Add one valid, error-free JavaScript file with your original code; linked from the head of all four HTML files
+<s>- Add one valid, error-free JavaScript file with your original code; linked from the head of all four HTML files</s>
 
-- Make sure your JavaScript throws no uncaught errors and is loaded unobtrusively. You can check for errors using the console on your browser inspector
+<s>- Make sure your JavaScript throws no uncaught errors and is loaded unobtrusively. You can check for errors using the console on your browser inspector</s>
 
 - For the final turn-in, add a JavaScript picture slider to one of your pages.
