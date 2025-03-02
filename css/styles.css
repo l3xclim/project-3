@@ -79,3 +79,24 @@ main ul li {
   margin-bottom: 0.5em;
   margin-left: 1em;
 }
+
+.sidebar {
+  background: #f1f1f1;
+  border: 1px solid #CCC;
+  padding: 1em;
+  padding-left: 0.5em;
+  padding-bottom: 0.25em;
+  float: right;
+  margin-left: 1em;
+  margin-bottom: 0.5em;
+}
+.sidebar ul li {
+  list-style-type: none
+}
+
+.sidebar h4 {
+  font-weight: bolder;
+  margin-left: 1em;
+  margin-bottom: 0.75em;
+  margin-right: 0.5em;
+}
