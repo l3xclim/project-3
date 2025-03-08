@@ -33,5 +33,4 @@ window.onload = function()
   }
 
   initMap();
-
 };

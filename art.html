@@ -25,11 +25,31 @@
       <section>
         <h1>Art</h1>
         <p>I enjoy making generative art with JavaScript, using the <a href="https://p5js.org/">p5.js</a> library. Here are some arts I've made over the years:</p>
-        <img src="images/celebes.jpeg" alt="Celebes">
-        <img src="images/madness.jpeg" alt="Madness">
-        <img src="images/metaglyph.jpeg" alt="Metaglyph">
+        <div class="slider-container">
+          <div class="slides">
+              <div class="slide"><img src="images/celebes.jpeg" alt="Celebes"></div>
+              <div class="slide"><img src="images/madness.jpeg" alt="Madness"></div>
+              <div class="slide"><img src="images/metaglyph.jpeg" alt="Metaglyph"></div>
+          </div>
+          <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+          <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>        
+        
+        
+        
       </section>
     </div>
   </main>
+  <script>
+    let index = 0;
+    function moveSlide(direction) {
+        const slides = document.querySelector(".slides");
+        const totalSlides = document.querySelectorAll(".slide").length;
+        index += direction;
+        if (index < 0) index = totalSlides - 1;
+        if (index >= totalSlides) index = 0;
+        slides.style.transform = `translateX(-${index * 100}%)`;
+    }
+  </script>
 </body>
 </html>
